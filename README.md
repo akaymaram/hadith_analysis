@@ -34,8 +34,20 @@ Abdallah Namoun, Mohammad Ali Humayun and Waqas Nawaz, “A Multimodal Data Scra
 PageRank Algorithm
 Venkat, Ibrahim, et al. "An Adapted Google's PageRank Algorithm for Hadith Sequencing." 2022 International Conference on Digital Transformation and Intelligence (ICDI). IEEE, 2022.
 
-Auto ML
-Mohamed, Emad, and Raheem Sarwar. "Linguistic features evaluation for hadith authenticity through automatic machine learning." Digital Scholarship in the Humanities 37.3 (2022): 830-843.
+<details>
+<summary> genetic algorithms </summary>
+ Najeeb, Moath Mustafa Ahmad. "A novel hadith processing approach based on genetic algorithms." IEEE Access 8 (2020): 20233-20244.
+</details>
+
+
+<details>
+<summary> </summary>
+</details>
+
+
+         <details>
+      <summary>Auto ML </summary>
+Mohamed, Emad, and Raheem Sarwar. "Linguistic features evaluation for hadith authenticity through automatic machine learning." Digital Scholarship in the Humanities 37.3 (2022): 830-843.    </details>
 
 ML
 Sulistio, Bambang, et al. "The utilization of machine learning on studying Hadith in Islam: A systematic literature review." Education and Information Technologies 29.5 (2024): 5381-5419.
@@ -71,9 +83,26 @@ researchgate.net/profile/Aqil-Azmi/publication/331848759_Computational_and_natur
  <details>
       <summary>other</summary>
       Azmi, Aqil M., and Amjad M. AlOfaidly. "A novel method to automatically pass hukm on hadith." Proceedings of the 5th International Conference on Arabic Language Processing (CITALA’14). 2014.
+  bin Rodzman, Shaiful Bakhtiar, et al. "Experiment with text summarization as a positive hierarchical fuzzy logic ranking indicator for domain specific retrieval of Malay translated hadith." 2019 IEEE 9th Symposium on Computer Applications & Industrial Electronics (ISCAIE). IEEE, 2019.
+  bin Rodzman, Shaiful Bakhtiar, et al. "Domain specific concept ontologies and text summarization as hierarchical fuzzy logic ranking indicator on malay text corpus." Indonesian Journal of Electrical Engineering and Computer Science 15.3 (2019): 1527-1534.
+    </details>
+
+ <details>
+      <summary>Isnad Tagging by hidden Markov Models </summary>
+      Najeeb, Moath Mustafa Ahmad. "A Hidden Markov Model‐Based Tagging Approach for Arabic Isnads of Hadiths." Mathematical Problems in Engineering 2022.1 (2022): 7160509.
     </details>
 
 
+     <details>
+      <summary>Using Edge List </summary>
+      Alias, Nursyahidah, et al. "Using Edge List." Fundamental and Applied Sciences in Asia: International Conference on Science Technology and Social Sciences (ICSTSS 2018). Springer Nature, 2023.
+      Alias, Nursyahidah, et al. "Hadith Text Classification on Sanad Part Using Edge List." Fundamental and Applied Sciences in Asia: International Conference on Science Technology and Social Sciences (ICSTSS 2018). Singapore: Springer Nature Singapore, 2023.
+    </details>
+
+         <details>
+      <summary>Text Processing Tasks </summary>
+      Baradaran, Sepideh, et al. "A Review on Hadith Text Processing Tasks." Journal of Information and Communication Technology 59.59 (2024): 47.
+    </details>
 
 Datasets
 Mahmoud, S.; Saif, O.; Nabil, E.; Abdeen, M.; ElNainay, M.; Torki, M. AR-Sanad 280K: A Novel 280K Artificial Sanads Dataset for Hadith Narrator Disambiguation. Information 2022, 13, 55. doi.org/10.3390/info13020055
