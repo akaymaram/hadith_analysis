@@ -14,9 +14,8 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 
-
-pd.set_option('display.max_rows', None)
 # Display all columns
+pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
 print(datetime.datetime.now())
