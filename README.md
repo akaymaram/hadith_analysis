@@ -44,10 +44,10 @@ Venkat, Ibrahim, et al. "An Adapted Google's PageRank Algorithm for Hadith Seque
 <summary> </summary>
 </details>
 
-
-         <details>
-      <summary>Auto ML </summary>
-Mohamed, Emad, and Raheem Sarwar. "Linguistic features evaluation for hadith authenticity through automatic machine learning." Digital Scholarship in the Humanities 37.3 (2022): 830-843.    </details>
+<details>
+<summary>Auto ML </summary>
+Mohamed, Emad, and Raheem Sarwar. "Linguistic features evaluation for hadith authenticity through automatic machine learning." Digital Scholarship in the Humanities 37.3 (2022): 830-843.
+</details>
 
 ML
 Sulistio, Bambang, et al. "The utilization of machine learning on studying Hadith in Islam: A systematic literature review." Education and Information Technologies 29.5 (2024): 5381-5419.
