@@ -67,9 +67,19 @@ Khusyasy, Muhammad Luthfi, Moch Arif Bijaksana, and Kemas Muslim Lhaksmana. "Cla
 NLP
 researchgate.net/profile/Aqil-Azmi/publication/331848759_Computational_and_natural_language_processing_based_studies_of_hadith_literature_a_survey/links/5ca8e198a6fdcca26d044e83/Computational-and-natural-language-processing-based-studies-of-hadith-literature-a-survey.pdf
 
+
+ <other>
+      <summary>Click to expand</summary>
+      Azmi, Aqil M., and Amjad M. AlOfaidly. "A novel method to automatically pass hukm on hadith." Proceedings of the 5th International Conference on Arabic Language Processing (CITALA’14). 2014.
+    </other>
+
 Datasets
-Mahmoud, S.; Saif, O.; Nabil, E.; Abdeen, M.; ElNainay, M.; Torki, M. AR-Sanad 280K: A Novel 280K Artificial Sanads Dataset for Hadith Narrator Disambiguation. Information 2022, 13, 55. https://doi.org/10.3390/info13020055
-https://www.mdpi.com/2078-2489/13/2/55
+Mahmoud, S.; Saif, O.; Nabil, E.; Abdeen, M.; ElNainay, M.; Torki, M. AR-Sanad 280K: A Novel 280K Artificial Sanads Dataset for Hadith Narrator Disambiguation. Information 2022, 13, 55. doi.org/10.3390/info13020055
+mdpi.com/2078-2489/13/2/55
+Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD
+doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com/datasets/gzprcr93zn/2, https://www.ihsanetwork.org/hadith.aspx and http://muslimscholars.info/ using the Python Selenium automated agent-based library and Beautiful Soup to acquire the dataset with data wrangling and labelling.
+
+
 
 
 
