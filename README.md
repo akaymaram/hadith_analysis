@@ -16,9 +16,17 @@ Wiharja, Kemas Rahmat Saleh, et al. "A questions answering system on hadith know
 
 Graph-based representation
 Alias, Nursyahidah, et al. "Graph-based text representation for Malay translated hadith text." 2016 Third International Conference on Information Retrieval and Knowledge Management (CAMP). IEEE, 2016.
+Graphs are everywhere - also in Religious Texts: https://gist.github.com/rvanbruggen/a6e2e80a6fa7a253f46de9fbe9ce361f
 Al-Absi, Hamada RH, et al. "Al-Ahadeeth: A Visualization Tool of the Hadiths’ Chain of Narrators." International Conference on Human-Computer Interaction. Cham: Springer Nature Switzerland, 2024.
 Farooqi, Aziz Mehmood, et al. "Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD." Data in Brief 54 (2024): 110439.
 The MIS dataset represent directed graph which consists of 2092 nodes, representing individual narrators, and 77,797 edges represent the Sanad-Hadith connections. The MIS dataset represents multiple ISNAD of the Hadith based on the Sahih Muslim Hadith book.  four different tools The dataset was carefully extracted from online multiple Hadith sources using data scraping and web crawling techniques tools, providing extensive Hadith details.  four different tools: NetworkX, Neo4j graph database, and two different network analysis tools named Gephi and CytoScape
+A Novel Graph-Based Representation for Hadith Sanad
+November 2019International Journal of Advanced Trends in Computer Science and Engineering 8(1.5):355-363
+DOI:10.30534/ijatcse/2019/5881.52019
+
+variant generation
+Reconstructing the Variant Generation Process of Hadith: Based on the Quantitative and the Isnād-cum-Matn Analysis
+equinoxpub.com/home/reconstructing-variant-gen/
 
 Data Scraping
 Abdallah Namoun, Mohammad Ali Humayun and Waqas Nawaz, “A Multimodal Data Scraping Tool for Collecting Authentic Islamic Text Datasets” International Journal of Advanced Computer Science and Applications(ijacsa), 15(12), 2024. http://dx.doi.org/10.14569/IJACSA.2024.0151224
@@ -55,3 +63,18 @@ Hamza, Manar Ahmed Mohammed, et al. "Developing a novel Text mining Model for Ex
 
 BERT
 Khusyasy, Muhammad Luthfi, Moch Arif Bijaksana, and Kemas Muslim Lhaksmana. "Classification of Hadith Authenticity Based on Sanad Using BERT." 2025 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS). IEEE, 2025.
+
+NLP
+researchgate.net/profile/Aqil-Azmi/publication/331848759_Computational_and_natural_language_processing_based_studies_of_hadith_literature_a_survey/links/5ca8e198a6fdcca26d044e83/Computational-and-natural-language-processing-based-studies-of-hadith-literature-a-survey.pdf
+
+Datasets
+Mahmoud, S.; Saif, O.; Nabil, E.; Abdeen, M.; ElNainay, M.; Torki, M. AR-Sanad 280K: A Novel 280K Artificial Sanads Dataset for Hadith Narrator Disambiguation. Information 2022, 13, 55. https://doi.org/10.3390/info13020055
+https://www.mdpi.com/2078-2489/13/2/55
+
+
+
+
+
+Books
+https://muqith.wordpress.com/wp-content/uploads/2016/03/studiesinhadithmethodologyandliteraturebyshaykhmuhammadmustafaal-azami_text.pdf
+
