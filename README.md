@@ -68,10 +68,12 @@ NLP
 researchgate.net/profile/Aqil-Azmi/publication/331848759_Computational_and_natural_language_processing_based_studies_of_hadith_literature_a_survey/links/5ca8e198a6fdcca26d044e83/Computational-and-natural-language-processing-based-studies-of-hadith-literature-a-survey.pdf
 
 
- <detail>
+ <details>
       <summary>other</summary>
       Azmi, Aqil M., and Amjad M. AlOfaidly. "A novel method to automatically pass hukm on hadith." Proceedings of the 5th International Conference on Arabic Language Processing (CITALA’14). 2014.
-    </detail>
+    </details>
+
+
 
 Datasets
 Mahmoud, S.; Saif, O.; Nabil, E.; Abdeen, M.; ElNainay, M.; Torki, M. AR-Sanad 280K: A Novel 280K Artificial Sanads Dataset for Hadith Narrator Disambiguation. Information 2022, 13, 55. doi.org/10.3390/info13020055
