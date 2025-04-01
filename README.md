@@ -81,30 +81,29 @@ NLP
 1. Azmi, Aqil M., Abdulaziz O. Al-Qabbany, and Amir Hussain. "Computational and natural language processing based studies of hadith literature: a survey." Artificial Intelligence Review 52 (2019): 1369-1414.
 2. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
 
+<details>
+<summary>other</summary>
+ 1. Azmi, Aqil M., and Amjad M. AlOfaidly. "A novel method to automatically pass hukm on hadith." Proceedings of the 5th International Conference on Arabic Language Processing (CITALA’14). 2014.
+ 2. bin Rodzman, Shaiful Bakhtiar, et al. "Experiment with text summarization as a positive hierarchical fuzzy logic ranking indicator for domain specific retrieval of Malay translated hadith." 2019 IEEE 9th Symposium on Computer Applications & Industrial Electronics (ISCAIE). IEEE, 2019.
+ 3. bin Rodzman, Shaiful Bakhtiar, et al. "Domain specific concept ontologies and text summarization as hierarchical fuzzy logic ranking indicator on malay text corpus." Indonesian Journal of Electrical Engineering and Computer Science 15.3 (2019): 1527-1534.
+</details>
 
- <details>
-      <summary>other</summary>
-      Azmi, Aqil M., and Amjad M. AlOfaidly. "A novel method to automatically pass hukm on hadith." Proceedings of the 5th International Conference on Arabic Language Processing (CITALA’14). 2014.
-  bin Rodzman, Shaiful Bakhtiar, et al. "Experiment with text summarization as a positive hierarchical fuzzy logic ranking indicator for domain specific retrieval of Malay translated hadith." 2019 IEEE 9th Symposium on Computer Applications & Industrial Electronics (ISCAIE). IEEE, 2019.
-  bin Rodzman, Shaiful Bakhtiar, et al. "Domain specific concept ontologies and text summarization as hierarchical fuzzy logic ranking indicator on malay text corpus." Indonesian Journal of Electrical Engineering and Computer Science 15.3 (2019): 1527-1534.
-    </details>
-
- <details>
-      <summary>Isnad Tagging by hidden Markov Models </summary>
-      Najeeb, Moath Mustafa Ahmad. "A Hidden Markov Model‐Based Tagging Approach for Arabic Isnads of Hadiths." Mathematical Problems in Engineering 2022.1 (2022): 7160509.
-    </details>
+<details>
+ <summary>Isnad Tagging by hidden Markov Models </summary>
+ 1. Najeeb, Moath Mustafa Ahmad. "A Hidden Markov Model‐Based Tagging Approach for Arabic Isnads of Hadiths." Mathematical Problems in Engineering 2022.1 (2022): 7160509
+</details>
 
 
-     <details>
-      <summary>Using Edge List </summary>
-      Alias, Nursyahidah, et al. "Using Edge List." Fundamental and Applied Sciences in Asia: International Conference on Science Technology and Social Sciences (ICSTSS 2018). Springer Nature, 2023.
-      Alias, Nursyahidah, et al. "Hadith Text Classification on Sanad Part Using Edge List." Fundamental and Applied Sciences in Asia: International Conference on Science Technology and Social Sciences (ICSTSS 2018). Singapore: Springer Nature Singapore, 2023.
-    </details>
+<details>
+<summary>Using Edge List </summary>
+1. Alias, Nursyahidah, et al. "Using Edge List." Fundamental and Applied Sciences in Asia: International Conference on Science Technology and Social Sciences (ICSTSS 2018). Springer Nature, 2023.
+ 2. Alias, Nursyahidah, et al. "Hadith Text Classification on Sanad Part Using Edge List." Fundamental and Applied Sciences in Asia: International Conference on Science Technology and Social Sciences (ICSTSS 2018). Singapore: Springer Nature Singapore, 2023.
+</details>
 
-         <details>
-      <summary>Text Processing Tasks </summary>
-      Baradaran, Sepideh, et al. "A Review on Hadith Text Processing Tasks." Journal of Information and Communication Technology 59.59 (2024): 47.
-    </details>
+<details>
+<summary>Text Processing Tasks </summary>
+Baradaran, Sepideh, et al. "A Review on Hadith Text Processing Tasks." Journal of Information and Communication Technology 59.59 (2024): 47.
+</details>
 
 Datasets
 1. Mahmoud, S.; Saif, O.; Nabil, E.; Abdeen, M.; ElNainay, M.; Torki, M. AR-Sanad 280K: A Novel 280K Artificial Sanads Dataset for Hadith Narrator Disambiguation. Information 2022, 13, 55. doi.org/10.3390/info13020055
