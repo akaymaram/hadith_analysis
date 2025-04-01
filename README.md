@@ -50,7 +50,7 @@ Mohamed, Emad, and Raheem Sarwar. "Linguistic features evaluation for hadith aut
 <details>
 <summary>ML</summary>
 Sulistio, Bambang, et al. "The utilization of machine learning on studying Hadith in Islam: A systematic literature review." Education and Information Technologies 29.5 (2024): 5381-5419.
-<details>
+</details>
 
  
 <details>
@@ -60,46 +60,46 @@ Sulistio, Bambang, et al. "The utilization of machine learning on studying Hadit
 3. Binbeshr, Farid, Amirrudin Kamsin, and Manal Mohammed. "A systematic review on hadith authentication and classification methods." Transactions on Asian and Low-Resource Language Information Processing 20.2 (2021): 1-17.
 4. Masruroh, Siti Ummi, et al. "Performance Analysis of Naïve Bayes Classifier Algorithm with Chi-Square and Confix Stripping Stemmer Selection Features In Hadits Translation Classification System." 2022 3rd International Conference on Big Data Analytics and Practices (IBDAP). IEEE, 2022.
 5. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
-<details>
+</details>
 
 
 <details>
 <summary>Deep Learning</summary>
 Refaee, Eshrag Ali. "Detecting hadith authenticity using a deep-learning approach." Scientific Journal of King Faisal University Basic and Applied Sciences 23 (2022): 80-84.
-<details>
+</details>
 
 <details>
 <summary>Fabricated hadith detection using Transformer Models</summary>
 1. Gaanoun, Kamel, and Mohammed Alsuhaibani. "Fabricated hadith detection: A novel matn-based approach with transformer language models." IEEE Access 10 (2022): 113330-113342.
-<details>
+</details>
 
 <details>
 <summary>Rules Mining</summary>
 Abdelaal, Hammam, et al. "The Relationship between different Classifications of Hadiths Based on rules Mining." International Journal of Advanced Scientific Research and Innovation 6.1 (2023): 90-98.
-<details>
+</details>
 
 <details>
 <summary>LSTM</summary>
 Rahman, Hendrawan Aulia, and Kemas Muslim Lhaksmana. "Classification of Hadith Quality Based on Matan Using LSTM." 2024 International Conference on Artificial Intelligence, Blockchain, Cloud Computing, and Data Analytics (ICoABCD). IEEE, 2024.
-<details>
+</details>
 
 <details>
 <summary>Text Mining</summary>
 Hamza, Manar Ahmed Mohammed, et al. "Developing a novel Text mining Model for Exploring Knowledge from an Arabic text: Al-Hadeeth Al-shareef as case study." IJCSNS 20.12 (2020): 51.
-<details>
+</details>
 
 
 <details>
 <summary>BERT</summary>
 Khusyasy, Muhammad Luthfi, Moch Arif Bijaksana, and Kemas Muslim Lhaksmana. "Classification of Hadith Authenticity Based on Sanad Using BERT." 2025 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS). IEEE, 2025.
-<details>
+</details>
 
  
 <details>
 <summary>NLP</summary>
 1. Azmi, Aqil M., Abdulaziz O. Al-Qabbany, and Amir Hussain. "Computational and natural language processing based studies of hadith literature: a survey." Artificial Intelligence Review 52 (2019): 1369-1414.
 2. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
-<details>
+</details>
  
 <details>
 <summary>other</summary>
