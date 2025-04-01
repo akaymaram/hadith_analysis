@@ -40,47 +40,66 @@ Venkat, Ibrahim, et al. "An Adapted Google's PageRank Algorithm for Hadith Seque
 </details>
 
 
-<details>
-<summary> </summary>
-</details>
 
 <details>
 <summary>Auto ML </summary>
 Mohamed, Emad, and Raheem Sarwar. "Linguistic features evaluation for hadith authenticity through automatic machine learning." Digital Scholarship in the Humanities 37.3 (2022): 830-843.
 </details>
 
-ML
+<details>
+<summary>ML</summary>
 Sulistio, Bambang, et al. "The utilization of machine learning on studying Hadith in Islam: A systematic literature review." Education and Information Technologies 29.5 (2024): 5381-5419.
+<details>
 
-Supervised classification
+ 
+<details>
+<summary>Supervised classification</summary>
 1. Abdelaal, Hammam M., and Hassan A. Youness. "Hadith classification using machine learning techniques according to its reliability." Romanian Journal of Information Science and Technology 22.3 (2019): 259-271.
 2. AbdElaal, Hammam M., et al. "Classifications of Hadiths based on Supervised Learning Techniques." International Journal of Computer Science & Network Security 22.11 (2022): 1-10.
 3. Binbeshr, Farid, Amirrudin Kamsin, and Manal Mohammed. "A systematic review on hadith authentication and classification methods." Transactions on Asian and Low-Resource Language Information Processing 20.2 (2021): 1-17.
 4. Masruroh, Siti Ummi, et al. "Performance Analysis of Naïve Bayes Classifier Algorithm with Chi-Square and Confix Stripping Stemmer Selection Features In Hadits Translation Classification System." 2022 3rd International Conference on Big Data Analytics and Practices (IBDAP). IEEE, 2022.
 5. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
+<details>
 
-Deep Learning
+
+<details>
+<summary>Deep Learning</summary>
 Refaee, Eshrag Ali. "Detecting hadith authenticity using a deep-learning approach." Scientific Journal of King Faisal University Basic and Applied Sciences 23 (2022): 80-84.
+<details>
 
-Fabricated hadith detection using Transformer Models
+<details>
+<summary>Fabricated hadith detection using Transformer Models</summary>
 1. Gaanoun, Kamel, and Mohammed Alsuhaibani. "Fabricated hadith detection: A novel matn-based approach with transformer language models." IEEE Access 10 (2022): 113330-113342.
+<details>
 
-Rules Mining
+<details>
+<summary>Rules Mining</summary>
 Abdelaal, Hammam, et al. "The Relationship between different Classifications of Hadiths Based on rules Mining." International Journal of Advanced Scientific Research and Innovation 6.1 (2023): 90-98.
+<details>
 
-LSTM
+<details>
+<summary>LSTM</summary>
 Rahman, Hendrawan Aulia, and Kemas Muslim Lhaksmana. "Classification of Hadith Quality Based on Matan Using LSTM." 2024 International Conference on Artificial Intelligence, Blockchain, Cloud Computing, and Data Analytics (ICoABCD). IEEE, 2024.
+<details>
 
-Text Mining
+<details>
+<summary>Text Mining</summary>
 Hamza, Manar Ahmed Mohammed, et al. "Developing a novel Text mining Model for Exploring Knowledge from an Arabic text: Al-Hadeeth Al-shareef as case study." IJCSNS 20.12 (2020): 51.
+<details>
 
-BERT
+
+<details>
+<summary>BERT</summary>
 Khusyasy, Muhammad Luthfi, Moch Arif Bijaksana, and Kemas Muslim Lhaksmana. "Classification of Hadith Authenticity Based on Sanad Using BERT." 2025 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS). IEEE, 2025.
+<details>
 
-NLP
+ 
+<details>
+<summary>NLP</summary>
 1. Azmi, Aqil M., Abdulaziz O. Al-Qabbany, and Amir Hussain. "Computational and natural language processing based studies of hadith literature: a survey." Artificial Intelligence Review 52 (2019): 1369-1414.
 2. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
-
+<details>
+ 
 <details>
 <summary>other</summary>
  1. Azmi, Aqil M., and Amjad M. AlOfaidly. "A novel method to automatically pass hukm on hadith." Proceedings of the 5th International Conference on Arabic Language Processing (CITALA’14). 2014.
@@ -105,19 +124,26 @@ NLP
 Baradaran, Sepideh, et al. "A Review on Hadith Text Processing Tasks." Journal of Information and Communication Technology 59.59 (2024): 47.
 </details>
 
-Datasets
+
+<details>
+<summary> Datasets </summary>
 1. Mahmoud, S.; Saif, O.; Nabil, E.; Abdeen, M.; ElNainay, M.; Torki, M. AR-Sanad 280K: A Novel 280K Artificial Sanads Dataset for Hadith Narrator Disambiguation. Information 2022, 13, 55. doi.org/10.3390/info13020055
 mdpi.com/2078-2489/13/2/55
 2. Farooqi, Aziz Mehmood, et al. "Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD." Data in Brief 54 (2024): 110439.
 doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com/datasets/gzprcr93zn/2, https://www.ihsanetwork.org/hadith.aspx and http://muslimscholars.info/ using the Python Selenium automated agent-based library and Beautiful Soup to acquire the dataset with data wrangling and labelling.
 3. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
+</details>
+
+
+<details>
+<summary> Books </summary>
+ https://muqith.wordpress.com/wp-content/uploads/2016/03/studiesinhadithmethodologyandliteraturebyshaykhmuhammadmustafaal-azami_text.pdf
+</details>
 
 
 
 
-
-
-
-Books
-https://muqith.wordpress.com/wp-content/uploads/2016/03/studiesinhadithmethodologyandliteraturebyshaykhmuhammadmustafaal-azami_text.pdf
+<details>
+<summary> </summary>
+</details>
 
