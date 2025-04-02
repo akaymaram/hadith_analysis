@@ -12,6 +12,7 @@ Next Step:
 
 Backlog:
 1. Build a daily screenshot job using Mac Automator or crontab
+2. Fix the manabe_generator.py to include all sources not just the first 25 elements
 
 
 
