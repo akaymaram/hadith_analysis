@@ -16,7 +16,8 @@ import pandas as pd
 
 total_num_pages = sys.argv[1]
 items_per_page = sys.argv[2]
-
+output_file_name = sys.argv[3]
+#://hadith.inoor.ir/fa/hadithlist?pagenumber=1&pagesize=10&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&book=1487&isgroup=0&isfulltext=0&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith
 
 pd.set_option('display.max_rows', None)
 # Display all columns
@@ -65,7 +66,7 @@ number_of_hadith_per_page = int(items_per_page)
 # left_arrow.click()
 # sys.exit('61')
 url_start = "https://hadith.inoor.ir/fa/hadithlist?pagenumber="
-url_end = f"(&pagesize={number_of_hadith_per_page}&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&book=1527&isgroup=0&isfulltext=1&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith"
+url_end = f"(&pagesize={number_of_hadith_per_page}&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&book=1433&isgroup=0&isfulltext=1&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith"
 list_of_hadith_IDs = []
 list_of_locations = []
 list_of_sanads = []
@@ -129,7 +130,7 @@ df1 = pd.DataFrame(data1)
 # pd.set_option('display.max_colwidth', None)
 df1.reset_index(inplace=True)
 print(df1)
-df1.to_csv('outputs/output.txt', index=False)
+df1.to_csv('outputs/'+ output_file_name +'.txt', index=False)
 
 
 
