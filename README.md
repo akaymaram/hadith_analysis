@@ -1,5 +1,16 @@
+
+
+
 # hadith_analysis
 Creating a graph-based encoding of the chain of narrations in  کتاب سُليم بن قيس الهلالي
+
+
+Next Step:
+1. Add the graph generation and visualization process
+
+
+Backlog:
+1. Build a daily screenshot job using Mac Automator or crontab
 
 
 
