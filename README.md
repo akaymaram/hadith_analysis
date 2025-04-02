@@ -7,7 +7,7 @@ Creating a graph-based encoding of the chain of narrations in  کتاب سُلي
 
 Next Step:
 1. Add the graph generation and visualization process
-2. Expand the ETL to include all books with under 100 enteries
+2. Expand the ETL to include all books with under 100 entries
 
 
 Backlog:
@@ -33,7 +33,7 @@ Alias, Nursyahidah, et al. "Graph-based text representation for Malay translated
 Graphs are everywhere - also in Religious Texts: https://gist.github.com/rvanbruggen/a6e2e80a6fa7a253f46de9fbe9ce361f
 Al-Absi, Hamada RH, et al. "Al-Ahadeeth: A Visualization Tool of the Hadiths’ Chain of Narrators." International Conference on Human-Computer Interaction. Cham: Springer Nature Switzerland, 2024.
 Farooqi, Aziz Mehmood, et al. "Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD." Data in Brief 54 (2024): 110439.
-The MIS dataset represent directed graph which consists of 2092 nodes, representing individual narrators, and 77,797 edges represent the Sanad-Hadith connections. The MIS dataset represents multiple ISNAD of the Hadith based on the Sahih Muslim Hadith book.  four different tools The dataset was carefully extracted from online multiple Hadith sources using data scraping and web crawling techniques tools, providing extensive Hadith details.  four different tools: NetworkX, Neo4j graph database, and two different network analysis tools named Gephi and CytoScape
+The MIS dataset represents a directed graph that consists of 2092 nodes, representing individual narrators, and 77,797 edges representing the Sanad-Hadith connections. The MIS dataset represents multiple ISNAD of the Hadith based on the Sahih Muslim Hadith book.  four different tools The dataset was carefully extracted from online multiple Hadith sources using data scraping and web crawling techniques tools, providing extensive Hadith details.  four different tools: NetworkX, Neo4j graph database, and two different network analysis tools named Gephi and CytoScape
 A Novel Graph-Based Representation for Hadith Sanad
 November 2019International Journal of Advanced Trends in Computer Science and Engineering 8(1.5):355-363
 DOI:10.30534/ijatcse/2019/5881.52019
@@ -144,7 +144,7 @@ Baradaran, Sepideh, et al. "A Review on Hadith Text Processing Tasks." Journal o
 1. Mahmoud, S.; Saif, O.; Nabil, E.; Abdeen, M.; ElNainay, M.; Torki, M. AR-Sanad 280K: A Novel 280K Artificial Sanads Dataset for Hadith Narrator Disambiguation. Information 2022, 13, 55. doi.org/10.3390/info13020055
 mdpi.com/2078-2489/13/2/55
 2. Farooqi, Aziz Mehmood, et al. "Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD." Data in Brief 54 (2024): 110439.
-doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com/datasets/gzprcr93zn/2, https://www.ihsanetwork.org/hadith.aspx and http://muslimscholars.info/ using the Python Selenium automated agent-based library and Beautiful Soup to acquire the dataset with data wrangling and labelling.
+doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com/datasets/gzprcr93zn/2, https://www.ihsanetwork.org/hadith.aspx and http://muslimscholars.info/ using the Python Selenium automated agent-based library and Beautiful Soup to acquire the dataset with data wrangling and labeling.
 3. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
 </details>
 
@@ -161,6 +161,12 @@ doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com
  https://muqith.wordpress.com/wp-content/uploads/2016/03/studiesinhadithmethodologyandliteraturebyshaykhmuhammadmustafaal-azami_text.pdf
 </details>
 
+
+<details>
+<summary> علم رجال </summary>
+ 4 types: Sahih صحیح, Hasan حسن, Za'if ضعیف, Muwasaq مو‍‍ثق documented
+ [authenticity categories](https://youtu.be/spfD8LkA8Kc?si=vLpTE5baoM_JNnsq)
+</details>
 
 
 
