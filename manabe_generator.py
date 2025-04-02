@@ -12,6 +12,16 @@ import sys
 import os
 import importlib
 
+
+def arabic_to_english_numeral_converter(arabic_string):
+    english_string = ''
+    for char in arabic_string:
+        if '٠' <= char <= '٩':
+            english_string += str(ord(char) - ord('٠'))
+        else:
+            english_string += char
+    return int(english_string)
+
 def arrange_lines(text):
     lines = text.splitlines()
     counts = []
@@ -20,7 +30,7 @@ def arrange_lines(text):
     for i, line in enumerate(lines):
         if (i + 1) % 2 == 0:
             print('even:', line)
-            counts.append(line.strip().strip("()"))
+            counts.append(int(line.strip().strip("()")))
         else:
             titles.append(line.strip())
             print('odd:', line)
