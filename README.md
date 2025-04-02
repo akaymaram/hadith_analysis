@@ -148,10 +148,11 @@ doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com
 3. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
 </details>
 
+
 <details>
 <summary>Hadith Map</summary>
-1. [IR 2014 HLS Think Big Talk](https://youtu.be/6DQzavdm4xU?si=6gT-vjR-MRTqLkWE&t=693)
-2. 
+ 
+[IR 2014 HLS Think Big Talk](https://youtu.be/6DQzavdm4xU?si=6gT-vjR-MRTqLkWE&t=693)
 </details>
 
 
