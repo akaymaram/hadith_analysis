@@ -7,6 +7,7 @@ Creating a graph-based encoding of the chain of narrations in  کتاب سُلي
 
 Next Step:
 1. Add the graph generation and visualization process
+2. Expand the ETL to include all books with under 100 enteries
 
 
 Backlog:
