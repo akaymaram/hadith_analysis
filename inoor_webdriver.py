@@ -14,8 +14,12 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 
-# Display all columns
+total_num_pages = sys.argv[1]
+items_per_page = sys.argv[2]
+
+
 pd.set_option('display.max_rows', None)
+# Display all columns
 pd.set_option('display.max_columns', None)
 
 print(datetime.datetime.now())
@@ -49,8 +53,8 @@ def arabic_to_english(arabic_string):
 # Example usage
 arabic_number = "١٢٣٤٥"
 english_number = arabic_to_english(arabic_number)
-number_of_pages = 2
-number_of_hadith_per_page = 50
+number_of_pages = int(total_num_pages)
+number_of_hadith_per_page = int(items_per_page)
 
 # driver = webdriver.Chrome()
 # Get search results for a given date range
@@ -98,7 +102,6 @@ for page in range(1,number_of_pages+1):
 			list_of_locations.append(source)
 		except Exception as e:
 			print(e)
-			driver.quit()
 			
 
 
@@ -119,12 +122,16 @@ for page in range(1,number_of_pages+1):
 	# 	print(x)
 	driver.implicitly_wait(3)
 
+
+driver.quit()
 data1 = {'hadith_IDs': list_of_hadith_IDs, 'chain': list_of_list_of_narrators}
 df1 = pd.DataFrame(data1)
 # pd.set_option('display.max_colwidth', None)
 df1.reset_index(inplace=True)
 print(df1)
 df1.to_csv('outputs/output.txt', index=False)
+
+
 
 # except Exception as e:
 # 	driver.quit()
