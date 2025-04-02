@@ -14,18 +14,20 @@ import importlib
 
 def arrange_lines(text):
     lines = text.splitlines()
-    even_lines = []
-    odd_lines = []
+    counts = []
+    titles = []
 
     for i, line in enumerate(lines):
         if (i + 1) % 2 == 0:
-            even_lines.append(line.strip())
+            print('even:', line)
+            counts.append(line.strip().strip("()"))
         else:
-            odd_lines.append(line.strip())
+            titles.append(line.strip())
+            print('odd:', line)
     
-    max_lines = max(len(even_lines), len(odd_lines))
+    max_lines = max(len(counts), len(titles))
 
-    return [even_lines,odd_lines]
+    return [counts,titles]
 
 print(datetime.datetime.now())
 options = webdriver.FirefoxOptions()
