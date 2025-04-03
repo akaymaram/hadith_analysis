@@ -13,55 +13,39 @@ import os
 import importlib
 
 
-def arabic_to_english_numeral_converter(arabic_string):
-    english_string = ''
-    for char in arabic_string:
-        if '٠' <= char <= '٩':
-            english_string += str(ord(char) - ord('٠'))
-        else:
-            english_string += char
-    return int(english_string)
+url = "https://hadith.inoor.ir/fa/hadithlist?pagenumber=1&pagesize=10&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&isgroup=0&isfulltext=0&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith"
 
-def arrange_lines(text):
-    lines = text.splitlines()
-    counts = []
-    titles = []
+def manabeh_element_parser(element_text):
+	lines = element_text.splitlines()
+	counts = []
+	titles = []
 
-    for i, line in enumerate(lines):
-        if (i + 1) % 2 == 0:
-            print('even:', line)
-            counts.append(int(line.strip().strip("()")))
-        else:
-            titles.append(line.strip())
-            print('odd:', line)
-    
-    max_lines = max(len(counts), len(titles))
+	for i, line in enumerate(lines):
+		if (i + 1) % 2 == 0:
+			counts.append(int(line.strip().strip("()")))
+		else:
+			titles.append(line.strip())
 
-    return [counts,titles]
+	return [titles, counts]
 
 print(datetime.datetime.now())
 options = webdriver.FirefoxOptions()
 driver = webdriver.Firefox(options=options)
 
-url = "https://hadith.inoor.ir/fa/hadithlist?pagenumber=1&pagesize=10&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&isgroup=0&isfulltext=0&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith"
 driver.get(url)
 time.sleep(10)
 try:
-	Manba = driver.find_element(By.TAG_NAME, 'tree-node-collection')
-	lines = Manba.text
-	lines = arrange_lines(lines)
-	data = {'source': lines[0], 
-         'count': lines[1]}
+	web_element = driver.find_element(By.TAG_NAME, 'tree-node-collection')
+	source_and_count_list = manabeh_element_parser(web_element.text)
+	data = {'source_title': source_and_count_list[0], 
+		 'hadith_count': source_and_count_list[1]}
+	print(data)
 	df = pd.DataFrame(data)
 	print(df)
-	df.to_csv('manabeh.csv', index=True)
-
-
-
+	df.to_csv('manabeh.csv', encoding='utf-8-sig', index=True)
 
 except Exception as e:
 	print(e)
-	print('got an Exception')
+	print('got the above Exception')
 
 driver.quit()
-sys.exit("26")
