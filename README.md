@@ -5,9 +5,10 @@
 Creating a graph-based encoding of the chain of narrations in  کتاب سُليم بن قيس الهلالي
 
 
-Next Step:
+Next Steps:
 1. Add the graph generation and visualization process
-2. Expand the ETL to include all books with under 100 entries
+2. Check the Safari reading list items, review items and add the select content
+3. Expand the ETL to include all books with under 100 entries
 
 
 Backlog:
