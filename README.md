@@ -147,7 +147,8 @@ mdpi.com/2078-2489/13/2/55
 2. Farooqi, Aziz Mehmood, et al. "Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD." Data in Brief 54 (2024): 110439.
 doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com/datasets/gzprcr93zn/2, https://www.ihsanetwork.org/hadith.aspx and http://muslimscholars.info/ using the Python Selenium automated agent-based library and Beautiful Soup to acquire the dataset with data wrangling and labeling.
 3. Ramzy, Ahmed, et al. "Hadiths classification using a novel author-based hadith classification dataset (abcd)." Big Data and Cognitive Computing 7.3 (2023): 141.
-4. muslimscholars.info
+4. muslimscholars.info, on the right side, there is a panel where you can select the family tree, Family timeline, and student by town view for each of the Companions, Tabi'een, and Taba' Tabi'een ( تَابِعُو ٱلتَّابِعِينَ, singular تَابِعُ ٱلتَّابِعِينَ), and 3rd-Century Scholars
+
 </details>
 
 
@@ -168,6 +169,22 @@ doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com
 <summary> علم رجال </summary>
  4 types: Sahih صحیح, Hasan حسن, Za'if ضعیف, Muwasaq مو‍‍ثق documented
  [authenticity categories](https://youtu.be/spfD8LkA8Kc?si=vLpTE5baoM_JNnsq)
+ 
+ "Taba' Tabi'een" (Arabic: تَابِعُو ٱلتَّابِعِينَ) refers to the third generation of Muslims after the Prophet Muhammad, following the Tabi'un (second generation), and are considered part of the Salaf (ancestors) of Islam. 
+Here's a more detailed explanation:
+The Salaf:
+Salaf, also often referred to with the honorific expression of al-salaf al-ṣāliḥ, are often taken to be the first three generations of Muslims. This comprises companions of the Islamic prophet Muhammad, their followers, and the followers of the followers. Their religious significance lay in the statement attributed to Muhammad (pbuh): "The best of my community are my generation, the ones who follow them and the ones who follow them", a period believed to exemplify the purest form of Islam.
+Salaf means "Predecessors or ancestors. Usually used in the sense of “pious ancestors,” especially the first three generations of the Muslim community, who are considered to have lived the normative experience of Islam. Often referred to in works by Hanbali jurists, particularly Ibn Taymiyyah and Muhammad ibn Abd al-Wahhab. Wahhabis called for the implementation of the social organization of salaf as a means of restoring Islamic ethics and piety to original purity. The same principles are followed by the twentieth-century Salafi movement, leading many to characterize it as traditionalist. The writings of Muhammad ibn Abd al-Wahhab suggest a return to the values of the salaf, rather than literal implementation of their practices, as the purpose of reform." (*The Oxford Dictionary of Islam*)
+The Salaf, or "ancestors," of Islam are the first three generations of Muslims: 
+1st Generation (Sahaba): The Companions of the Prophet Muhammad. 
+2nd Generation (Tabi'un): Those who followed the Companions. 
+3rd Generation (Taba' Tabi'een): Those who followed the Tabi'un. 
+Significance:
+The Taba' Tabi'een, along with the Tabi'un and the Sahaba, are considered a pivotal period in Islamic history and are held in high regard for their piety and knowledge. 
+Examples of Taba' Tabi'een:
+Imam Malik, Imam Shafi'i, and Imam Ahmad bin Hanbal are often cited as examples of scholars from this generation. 
+Abu Hanifa:
+Some traditions state that Imam Abu Hanifa was a Tabi'i, but he is also sometimes considered part of the Taba' Tabi'een. 
 </details>
 
 
