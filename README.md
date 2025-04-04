@@ -16,7 +16,8 @@ Backlog:
 3. Expand the ETL of manabeh data to include all books with under 100 entries
 4. Check the references and cited by in Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD paper in https://doi.org/10.1016/j.dib.2024.110439
 
-
+reading backlog:
+stats.meta.stackexchange.com/questions/2010/markdown-link-not-being-rendered-as-a-hyperlink
 
 
 references
@@ -159,6 +160,12 @@ doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com
 [IR 2014 HLS Think Big Talk](https://youtu.be/6DQzavdm4xU?si=6gT-vjR-MRTqLkWE&t=693)
 </details>
 
+<details>
+<summary>Irene Kirchner</summary>
+ 
+pil.law.harvard.edu/staff/irene-kirchner
+idhn.org
+</details>
 
 <details>
 <summary> Books </summary>
