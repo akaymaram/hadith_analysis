@@ -8,12 +8,13 @@ Creating a graph-based encoding of the chain of narrations in  کتاب سُلي
 Next Steps:
 1. Add the graph generation and visualization process
 2. Check the Safari reading list items, review items and add the select content
-3. Expand the ETL to include all books with under 100 entries
 
 
 Backlog:
 1. Build a daily screenshot job using Mac Automator or crontab
-2. Fix the manabe_generator.py to include all sources not just the first 25 elements
+2. Fix the manabe_generator.py to include all sources not just the first 25 elements in the manabeh list
+3. Expand the ETL of manabeh data to include all books with under 100 entries
+4. Check the references and cited by in Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD paper in https://doi.org/10.1016/j.dib.2024.110439
 
 
 
@@ -187,7 +188,10 @@ Abu Hanifa:
 Some traditions state that Imam Abu Hanifa was a Tabi'i, but he is also sometimes considered part of the Taba' Tabi'een. 
 </details>
 
-
+<details>
+<summary> Related work </summary>
+ [LLM-Based Approach for Automated Seerah-Hadith Mapping | Muslims in ML at NeurIPS'24](youtube.com/watch?v=yv_cgJapfPU)
+</details>
 
 <details>
 <summary> </summary>
