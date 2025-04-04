@@ -6,8 +6,7 @@ Creating a graph-based encoding of the chain of narrations in  کتاب سُلي
 
 
 Next Steps:
-1. Add the graph generation and visualization process
-2. Check the Safari reading list items, review items and add the select content
+1. make the edges directed
 
 
 Backlog:
