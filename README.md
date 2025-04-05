@@ -7,6 +7,9 @@ Creating a graph-based encoding of the chain of narrations in  کتاب سُلي
 
 Next Steps:
 1. make the edges directed
+2.check the below tool
+Al-Ahadeeth: A Visualization Tool of the Hadiths’ Chain of Narrators
+https://link.springer.com/chapter/10.1007/978-3-031-61953-3_1
 
 
 Backlog:
