@@ -4,6 +4,9 @@
 # hadith_analysis
 Creating a graph-based encoding of the chain of narrations in  کتاب سُليم بن قيس الهلالي
 
+Graph theory, particularly social network analysis, can be used to analyze Hadith by modeling the "sanad" (chain of narrators) as a network, allowing for the study of network properties and the identification of prominent narrators, potentially aiding in hadith authentication.
+
+
 
 Next Steps:
 1. make the edges directed
@@ -24,11 +27,24 @@ stats.meta.stackexchange.com/questions/2010/markdown-link-not-being-rendered-as-
 
 
 references
-Extraction and Visualization of the Chain of Narrators from Hadiths using Named Entity Recognition and Classification
+Extraction and Visualization of the Chain of Narrators from Hadiths using ***Named Entity Recognition*** and Classification
 https://www.dline.info/jcl/fulltext/v5n1/2.pdf
 
 
 Alias, Nursyahidah. ***Graph-based ambiguity handling*** in the chain of narrators for hadith information retrieval. Diss. Universiti Teknologi MARA (UiTM), 2023.
+
+SemanticHadith: An ***ontology-driven knowledge graph*** for the hadith corpus
+Amna Binte Kamran, Bushra Abro, Amna Basharat
+DOI: 10.1016/j.websem.2023.100797 
+Journals:Journal of Web Semantics
+ivysci.com/en/articles/3331800__SemanticHadith_An_ontologydriven_knowledge_graph_for_the_hadith_corpus
+semantichadith.com
+
+Robust Hadith IR using Knowledge-Graphs and Semantic-Similarity Classification
+July 2023
+DOI:10.5121/csit.2023.131215
+Conference: 8th International Conference on Software Engineering
+pdf: https://csitcp.org/paper/13/1312csit15.pdf
 
 
 Visualisation
@@ -173,7 +189,8 @@ doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com
 </details>
 <details>
 <summary>Hadith Tree</summary>
- Azmi, Aqil M., and Nawaf bin Badia. "e-Narrator—An application for creating an ontology of Hadiths narration tree semantically and graphically." Arabian Journal for Science and Engineering 35.2 (2010): 51.
+ Azmi, Aqil M., and Nawaf bin Badia. "e-Narrator—An application for creating an ***ontology of Hadiths narration tree semantically and graphically***." Arabian Journal for Science and Engineering 35.2 (2010): 51.
+ Search for "Screen capture of the narration tree and the auto generated RDF code for the Hadith" within the article
 </details>
  
 <details>
@@ -222,12 +239,42 @@ Some traditions state that Imam Abu Hanifa was a Tabi'i, but he is also sometime
  [LLM-Based Approach for Automated Seerah-Hadith Mapping | Muslims in ML at NeurIPS'24](youtube.com/watch?v=yv_cgJapfPU)
 </details>
 
-Needs Classification:
+Social network analysis (SNA)
 Alam, Tanvir, and Jens Schneider. "***Social network analysis*** of hadith narrators from Sahih Bukhari." 2020 7th International Conference on Behavioural and Social Computing (BESC). IEEE, 2020.
+"One of the many metrics that SNA allows you to measure is centrality. Often, we care about which nodes hold the most power, influence the flow of information, or occupy strategic positions that connect different parts of a network.": https://dlab.berkeley.edu/news/concepts-and-measurements-social-network-analysis
+
+Needs Classification:
+Knowledge Graph Generation from Islamic Text:
+semantic-web-journal.net/content/semantic-enrichment-hadith-corpus-knowledge-graph-generation-islamic-text
 
 
 Saloot, Mohammad Arshi, et al. "***Hadith data mining and classification***: a comparative analysis." Artificial Intelligence Review 46 (2016): 113-128.
 
+Automating ***Sanad Continuity Verification*** in Disconnected Hadith Using Machine Learning
+December 2024
+
+ROBUST HADITH IR USING KNOWLEDGE-GRAPHS AND SEMANTIC-SIMILARITY CLASSIFICATION
+Omar Shafie, Kareem Darwish, and Bernard J. Jansen
+Hamad Bin Khalifa University
+
+***DIGITAL HADITH AUTHENTICATION***: A LITERATURE REVIEW AND ANALYSIS
+Journal of Theoretical and Applied Information Technology (15th August 2018. Vol.96. No 15)
+http://www.jatit.org/volumes/Vol96No15/25Vol96No15.pdf
+
+
+A search engine which provides Visual analysis of Hadith Isnad tree
+dev.omarshafie.com/hadith/
+github.com/OmarShafie/hadith&ved=2ahUKEwiDupXsgcKMAxWcFFkFHQxgCaIQFnoECA8QAQ&usg=AOvVaw34KywuLX676FJszG7kfoEA
+Shafie, Omar Abdulfattah. KASHAF: A Knowledge-Graphs Approach Search-Engine for Hadith Analysis & Flow-Visualization. MS thesis. Hamad Bin Khalifa University (Qatar), 2021.
+
+Yotenka, Rahmadi et al. “Exploring the relationship between hadith narrators in Book of Bukhari through ***SPADE algorithm***.” MethodsX vol. 9 101850. 9 Sep. 2022, doi:10.1016/j.mex.2022.101850
+
+
+Github repos:
+Hadith SQL dump for Sanad, collected from various sources including Islam Ware:
+github.com/ceefour/sanad-hadith hosted at soluvas.github.io/sanad
+a search engine which provides Visual analysis of Hadith Isnad tree:
+github.com/OmarShafie/hadith hosted at dev.omarshafie.com/hadith
 
 <details>
 <summary> </summary>
