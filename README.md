@@ -174,6 +174,8 @@ doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com
 <details>
 <summary>Hadith Tree</summary>
  Azmi, Aqil M., and Nawaf bin Badia. "e-Narrator—An application for creating an ontology of Hadiths narration tree semantically and graphically." Arabian Journal for Science and Engineering 35.2 (2010): 51.
+</details>
+ 
 <details>
 <summary>Hadith Map</summary>
  
@@ -222,6 +224,8 @@ Some traditions state that Imam Abu Hanifa was a Tabi'i, but he is also sometime
 
 Needs Classification:
 Alam, Tanvir, and Jens Schneider. "***Social network analysis*** of hadith narrators from Sahih Bukhari." 2020 7th International Conference on Behavioural and Social Computing (BESC). IEEE, 2020.
+
+
 Saloot, Mohammad Arshi, et al. "***Hadith data mining and classification***: a comparative analysis." Artificial Intelligence Review 46 (2016): 113-128.
 
 
