@@ -27,12 +27,22 @@ references
 Extraction and Visualization of the Chain of Narrators from Hadiths using Named Entity Recognition and Classification
 https://www.dline.info/jcl/fulltext/v5n1/2.pdf
 
+
+Alias, Nursyahidah. ***Graph-based ambiguity handling*** in the chain of narrators for hadith information retrieval. Diss. Universiti Teknologi MARA (UiTM), 2023.
+
+
+Visualisation
+Alias, Nursyahidah, et al. "HadithNet: Design and Implementation of ***Visualisation of Sanad*** in Malay Translated Hadith Text." 2024 IEEE 12th Conference on Systems, Process & Control (ICSPC). IEEE, 2024.
+Shukur, Zarina, et al. "***Visualization of the hadith chain of narrators***." Visual Informatics: Sustaining Research and Innovations: Second International Visual Informatics Conference, IVIC 2011, Selangor, Malaysia, November 9-11, 2011, Proceedings, Part II 2. Springer Berlin Heidelberg, 2011.
+
 Trophic Analysis
 Shuaib, Choudhry, et al. "Trophic analysis of a historical network reveals temporal information." Applied Network Science 7.1 (2022): 31.
 
 Knowledge Graphs
 Kamran, Amna Binte, Bushra Abro, and Amna Basharat. "SemanticHadith: An ontology-driven knowledge graph for the hadith corpus." Journal of Web Semantics 78 (2023): 100797.
 Wiharja, Kemas Rahmat Saleh, et al. "A questions answering system on hadith knowledge graph." Journal of ICT Research and Applications 16.2 (2022): 184-196.
+Atef Mosa, Mohamed. "Predicting semantic categories in text based on ***knowledge graph*** combined with ***machine learning techniques***." Applied Artificial Intelligence 35.12 (2021): 933-951.z
+
 
 Graph-based representation
 Alias, Nursyahidah, et al. "Graph-based text representation for Malay translated hadith text." 2016 Third International Conference on Information Retrieval and Knowledge Management (CAMP). IEEE, 2016.
@@ -43,7 +53,9 @@ The MIS dataset represents a directed graph that consists of 2092 nodes, represe
 A Novel Graph-Based Representation for Hadith Sanad
 November 2019International Journal of Advanced Trends in Computer Science and Engineering 8(1.5):355-363
 DOI:10.30534/ijatcse/2019/5881.52019
-
+Dabeek, Noor, et al. "Visualizing Ruwah related data by **interactive graph**." 2021 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT). IEEE, 2021.
+Saeed, Sumaira, et al. "**Social network analysis** of Hadith narrators." Journal of King Saud University-Computer and Information Sciences 34.6 (2022): 3766-3774.
+Ghufron, Muhamad, and Dyah Anggraini. "***Social relationship analysis*** of the diffusion of hadith in Sahih Al-Bukhari." Research Journal of Advanced Engineering and Science 5.3 (2020): 127-132.
 variant generation
 Reconstructing the Variant Generation Process of Hadith: Based on the Quantitative and the Isnād-cum-Matn Analysis
 equinoxpub.com/home/reconstructing-variant-gen/
@@ -69,6 +81,8 @@ Mohamed, Emad, and Raheem Sarwar. "Linguistic features evaluation for hadith aut
 <details>
 <summary>ML</summary>
 Sulistio, Bambang, et al. "The utilization of machine learning on studying Hadith in Islam: A systematic literature review." Education and Information Technologies 29.5 (2024): 5381-5419.
+Atef Mosa, Mohamed. "Predicting semantic categories in text based on knowledge graph combined with machine learning techniques." Applied Artificial Intelligence 35.12 (2021): 933-951.
+ 
 </details>
 
  
@@ -105,6 +119,8 @@ Rahman, Hendrawan Aulia, and Kemas Muslim Lhaksmana. "Classification of Hadith Q
 <details>
 <summary>Text Mining</summary>
 Hamza, Manar Ahmed Mohammed, et al. "Developing a novel Text mining Model for Exploring Knowledge from an Arabic text: Al-Hadeeth Al-shareef as case study." IJCSNS 20.12 (2020): 51.
+Saloot, Mohammad Arshi, et al. "Hadith data mining and classification: a comparative analysis." Artificial Intelligence Review 46 (2016): 113-128.
+ 
 </details>
 
 
@@ -155,8 +171,9 @@ doi.org/10.1016/j.dib.2024.110439, Direct URL to data: https://data.mendeley.com
 4. muslimscholars.info, on the right side, there is a panel where you can select the family tree, Family timeline, and student by town view for each of the Companions, Tabi'een, and Taba' Tabi'een ( تَابِعُو ٱلتَّابِعِينَ, singular تَابِعُ ٱلتَّابِعِينَ), and 3rd-Century Scholars
 
 </details>
-
-
+<details>
+<summary>Hadith Tree</summary>
+ Azmi, Aqil M., and Nawaf bin Badia. "e-Narrator—An application for creating an ontology of Hadiths narration tree semantically and graphically." Arabian Journal for Science and Engineering 35.2 (2010): 51.
 <details>
 <summary>Hadith Map</summary>
  
@@ -202,6 +219,11 @@ Some traditions state that Imam Abu Hanifa was a Tabi'i, but he is also sometime
 <summary> Related work </summary>
  [LLM-Based Approach for Automated Seerah-Hadith Mapping | Muslims in ML at NeurIPS'24](youtube.com/watch?v=yv_cgJapfPU)
 </details>
+
+Needs Classification:
+Alam, Tanvir, and Jens Schneider. "***Social network analysis*** of hadith narrators from Sahih Bukhari." 2020 7th International Conference on Behavioural and Social Computing (BESC). IEEE, 2020.
+Saloot, Mohammad Arshi, et al. "***Hadith data mining and classification***: a comparative analysis." Artificial Intelligence Review 46 (2016): 113-128.
+
 
 <details>
 <summary> </summary>
