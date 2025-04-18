@@ -269,7 +269,7 @@ Shafie, Omar Abdulfattah. KASHAF: A Knowledge-Graphs Approach Search-Engine for 
 
 Yotenka, Rahmadi et al. “Exploring the relationship between hadith narrators in Book of Bukhari through ***SPADE algorithm***.” MethodsX vol. 9 101850. 9 Sep. 2022, doi:10.1016/j.mex.2022.101850
 
-
+journals.iau.ir/article_671181.html
 Github repos:
 Hadith SQL dump for Sanad, collected from various sources including Islam Ware:
 github.com/ceefour/sanad-hadith hosted at soluvas.github.io/sanad
