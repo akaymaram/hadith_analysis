@@ -283,6 +283,7 @@ islam.stackexchange.com/questions/57344/what-are-some-computational-tools-for-is
 (look in leads folder for pdf screenshot of the above page)
 
 LLM-Based Approach for Automated Seerah-Hadith Mapping | Muslims in ML at NeurIPS'24
+A Novel LLM-Based Approach for Automated Seerah-Hadith Mapping: Connecting Islamic Historical Narratives Through Vector Search and Semantic Analysis
 video @ youtu.be/yv_cgJapfPU?si=u_T2o-u2jjeE2qJY
 pdf article @ openreview.net/pdf?id=awxcxut6hV
 
