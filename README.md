@@ -278,6 +278,16 @@ github.com/OmarShafie/hadith hosted at dev.omarshafie.com/hadith
 
 islamic-awareness.org/quran/text/mss
 
+
+islam.stackexchange.com/questions/57344/what-are-some-computational-tools-for-isnad-or-matn-analysis-of-hadith
+(look in leads folder for pdf screenshot of the above page)
+
+LLM-Based Approach for Automated Seerah-Hadith Mapping | Muslims in ML at NeurIPS'24
+video @ youtu.be/yv_cgJapfPU?si=u_T2o-u2jjeE2qJY
+pdf article @ openreview.net/pdf?id=awxcxut6hV
+
+
+
 <details>
 <summary> </summary>
 </details>
