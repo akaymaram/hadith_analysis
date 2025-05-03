@@ -11,7 +11,7 @@ Running manabeh_generator.py with the csv output file name as a command line arg
 generates the first 25 manabeh from the manabeh list.
 Example:
 python3 manabeh_generator.py manabeh.csv
-generates manabeh.csv in the same directory of this script with the first 25 manabeh
+generates manabeh.csv in the same directory of this script with the containing the 25 manabeh
 
 
 
@@ -28,6 +28,7 @@ Backlog:
 2. Fix the manabe_generator.py to include all sources not just the first 25 elements in the manabeh list
 3. Expand the ETL of manabeh data to include all books with under 100 entries
 4. Check the references and cited by in Multi-IsnadSet MIS for Sahih Muslim Hadith with chain of narrators, based on multiple ISNAD paper in https://doi.org/10.1016/j.dib.2024.110439
+5. Find a solution to generate more than 25 manabeh using manabeh_generator.py 
 
 reading backlog:
 stats.meta.stackexchange.com/questions/2010/markdown-link-not-being-rendered-as-a-hyperlink
