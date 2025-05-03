@@ -14,9 +14,20 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 
+'''
+Running this script with the total_num_pages, items_per_page, output_file_name, book_ID
+commandline arguments, generates a txt file with the provided output_file_name in the outputs
+directory containing n (total_num_pages*items_per_page) chain of narrations for n ahadith
+Example:
+python3 inoor_webdriver.py 2 10 output 1527
+generates output.txt in the outputs directory with 20 chains of narration for book 1527 Kitab Suleym
+in a python list format with inoor hadith IDs for each list
+'''
+
 total_num_pages = sys.argv[1]
 items_per_page = sys.argv[2]
 output_file_name = sys.argv[3]
+book_ID = sys.argv[4]
 #://hadith.inoor.ir/fa/hadithlist?pagenumber=1&pagesize=10&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&book=1487&isgroup=0&isfulltext=0&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith
 
 pd.set_option('display.max_rows', None)
@@ -65,8 +76,9 @@ number_of_hadith_per_page = int(items_per_page)
 # left_arrow = driver.find_element(By.CLASS_NAME, "hadith-icon hadith-keyboard-arrow-left")
 # left_arrow.click()
 # sys.exit('61')
+
 url_start = "https://hadith.inoor.ir/fa/hadithlist?pagenumber="
-url_end = f"(&pagesize={number_of_hadith_per_page}&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&book=1433&isgroup=0&isfulltext=1&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith"
+url_end = f"(&pagesize={number_of_hadith_per_page}&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&book={book_ID}&isgroup=0&isfulltext=1&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith"
 list_of_hadith_IDs = []
 list_of_locations = []
 list_of_sanads = []

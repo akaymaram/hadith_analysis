@@ -6,12 +6,23 @@ Creating a graph-based encoding of the chain of narrations in  کتاب سُلي
 
 Graph theory, particularly social network analysis, can be used to analyze Hadith by modeling the "sanad" (chain of narrators) as a network, allowing for the study of network properties and the identification of prominent narrators, potentially aiding in hadith authentication.
 
+Running Instructions
 1.
 Running manabeh_generator.py with the csv output file name as a command line argument
 generates the first 25 manabeh from the manabeh list.
 Example:
 python3 manabeh_generator.py manabeh.csv
 generates manabeh.csv in the same directory of this script with the containing the 25 manabeh
+2.
+Running the inoor_webdriver.py with the total_num_pages, items_per_page, output_file_name, book_ID
+commandline arguments, generates a txt file with the provided output_file_name in the outputs
+directory containing n (total_num_pages*items_per_page) chain of narrations for n ahadith
+Example:
+python3 inoor_webdriver.py 2 10 output 1527
+generates output.txt in the outputs directory with 20 chains of narration for book 1527 Kitab Suleym
+in a python list format with inoor hadith IDs for each list
+'''
+
 
 
 
