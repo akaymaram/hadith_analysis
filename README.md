@@ -12,7 +12,8 @@ Running manabeh_generator.py with the csv output file name as a command line arg
 generates the first 25 manabeh from the manabeh list.
 Example:
 python3 manabeh_generator.py manabeh.csv
-generates manabeh.csv in the same directory of this script with the containing the 25 manabeh
+generates manabeh.csv in the outputs directory containing the 25 manabeh
+
 2.
 Running the inoor_webdriver.py with the total_num_pages, items_per_page, output_file_name, book_ID
 commandline arguments, generates a txt file with the provided output_file_name in the outputs
@@ -21,7 +22,7 @@ Example:
 python3 inoor_webdriver.py 2 10 output 1527
 generates output.txt in the outputs directory with 20 chains of narration for book 1527 Kitab Suleym
 in a python list format with inoor hadith IDs for each list
-'''
+
 
 
 

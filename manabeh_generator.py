@@ -52,7 +52,7 @@ try:
 	df = pd.DataFrame(data)
 	print(df)
 	print(output_name)
-	df.to_csv(output_name, encoding='utf-8-sig', index=True)
+	df.to_csv('outputs/'+ output_name, encoding='utf-8-sig', index=True)
 
 except Exception as e:
 	print(e)
