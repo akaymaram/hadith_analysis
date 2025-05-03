@@ -12,8 +12,17 @@ import sys
 import os
 import importlib
 
+'''
+Running this script with the csv output file name as a command line argument
+generates the first 25 manabeh from the manabeh list.
+Example:
+python3 manabeh_generator.py manabeh.csv
+generates manabeh.csv in the same directory of this script with the first 25 manabeh
+'''
 
 url = "https://hadith.inoor.ir/fa/hadithlist?pagenumber=1&pagesize=10&sortcolumn=default&sortdirection=asc&searchtype=and&infeild=all&isgroup=0&isfulltext=0&iserab=1&pagesizegrouping=10&flexibleforstem=1&flexibleforletter=1&flexibleforroot=0&searchin=hadith"
+
+output_name = str(sys.argv[1])
 
 def manabeh_element_parser(element_text):
 	lines = element_text.splitlines()
@@ -42,7 +51,8 @@ try:
 	print(data)
 	df = pd.DataFrame(data)
 	print(df)
-	df.to_csv('manabeh.csv', encoding='utf-8-sig', index=True)
+	print(output_name)
+	df.to_csv(output_name, encoding='utf-8-sig', index=True)
 
 except Exception as e:
 	print(e)
