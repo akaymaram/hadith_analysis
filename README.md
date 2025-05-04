@@ -23,6 +23,15 @@ python3 inoor_webdriver.py 2 10 output 1527
 generates output.txt in the outputs directory with 20 chains of narration for book 1527 Kitab Suleym
 in a python list format with inoor hadith IDs for each list
 
+3.
+Running plot_graph.py with the file_name (input) and optional num_lines_to_read
+commandline arguments, generates a table png image file of narrator IDs and a graph
+visualizing the narration chains
+Example:
+python3 plot_graph.py Suleyman 30
+generates inputs the 30 first lines of Suleyman.txt file from the outputs directory and generates
+the table and graph png files in the output directory with appropriate file names
+
 
 
 
