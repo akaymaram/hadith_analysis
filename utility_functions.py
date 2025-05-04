@@ -77,6 +77,37 @@ def remove_harakat(text):
   cleaned_text = re.sub(noise, '', text)
   return cleaned_text
 
+def get_key_by_value(my_dict, target_value):
+    """
+    Returns a list of keys from a dictionary that match a given value.
+    
+    Args:
+        my_dict (dict): The dictionary to search.
+        target_value: The value to find.
+    
+    Returns:
+        list: A list of keys that correspond to the target value. 
+              Returns an empty list if the value is not found.
+    """
+    return [key for key, value in my_dict.items() if value == target_value]
+
+def read_file_line_by_line(file_path):
+    """Reads a text file line by line and prints each line.
+
+    Args:
+        file_path: The path to the text file.
+    """
+    list_of_lines = []
+    try:
+        with open(file_path, 'r') as file:
+            for line in file:
+                list_of_lines.append(line.strip())  # strip() removes leading/trailing whitespace, including newline characters
+        return list_of_lines
+    except FileNotFoundError:
+        return [f"Error: File not found at path: {file_path}"]
+    except Exception as e:
+        return [f"An error occurred: {e}"]
+
 # Example usage
 text = "اﻟْﺤَﻤْﺪُ ﻟِﻠَّﻪِ ﺭَﺏِّ اﻟْﻌَﺎﻟَﻤِﻴﻦَ"
 cleaned_text = remove_harakat(text)
