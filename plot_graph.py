@@ -11,12 +11,15 @@ import re
 
 
 '''
-Running this script with the file_name (input) and optional num_lines_to_read
+Running this script with
+file_name (input)
+num_lines_to_read (optional)
+name_synonyms_filename (optional)
 commandline arguments, generates a table png image file of narrator IDs and a graph
 visualizing the narration chains
 Example:
-python3 plot_graph.py Suleyman 30
-generates inputs the 30 first lines of Suleyman.txt file from the outputs directory and generates
+python3 plot_graph.py suleym 30 suleym_name_synonyms.txt
+generates inputs the 30 first lines of suleym.txt file from the outputs directory and generates
 the table and graph png files in the output directory with appropriate file names
 '''
 
@@ -25,10 +28,10 @@ the table and graph png files in the output directory with appropriate file name
 input_file_name = sys.argv[1]
 file_path = "outputs/" + input_file_name + ".txt"
 num_lines_to_read = None
-if len(sys.argv) > 1:
+if len(sys.argv) > 2:
 	num_lines_to_read = int(sys.argv[2])
 my_dict = {}
-if len(sys.argv) > 2:
+if len(sys.argv) > 3:
 	name_synonyms_filename = sys.argv[3]
 	print(name_synonyms_filename)
 	name_synonyms_filepath = "outputs/" + name_synonyms_filename
@@ -37,7 +40,7 @@ if len(sys.argv) > 2:
 	for line in lines_list:
 		print(line)
 		res = re.split(r'[;,،]+', line)
-		my_dict[res[0]] = res[1:]
+		my_dict[res[0].strip()] = [x.strip() for x in res[1:]]
 
 	a = list(my_dict.keys())
 	print(my_dict['سليم'])
@@ -131,21 +134,17 @@ print(type(sanad[0]))
 key_value = {}
 value_key = {}
 key = 0
-print(my_dict)
 for line in sanad:
 	if line != "No SANAD":
 		list_version = string_to_list(line)
 		person_indices = []
 	for person in list_version:
-		print(person)
+		person_with_harakat = person
 		person = remove_harakat(person)
-		print(person)
 		target_value = person
-		key_list = [key for key, value in my_dict.items() if value == target_value]
-		print('key_list', key_list)
+		key_list = [key for key, value in my_dict.items() if target_value in value]
 		if len(key_list) > 0:
 			person = key_list[0]
-		print(person)
 		if person not in value_key:
 			key+=1
 			key_value[key] = person
@@ -153,7 +152,7 @@ for line in sanad:
 			person_indices.append(key)
 		else:
 			person_indices.append(value_key[person])
-		print(list_version)
+		# print(list_version)
 		create_adjacent_edges(person_indices)
 
 
