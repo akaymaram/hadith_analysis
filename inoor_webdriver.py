@@ -101,7 +101,8 @@ for page in range(1,number_of_pages+1):
 			narrs = document.find_elements(By.TAG_NAME, 'narrator')
 			list_of_narrators = []
 			for  narr in narrs:
-				list_of_narrators.append(narr.text.strip())
+				narr_name = narr.text.strip()
+				list_of_narrators.append(narr_name)
 			list_of_list_of_narrators.append(list_of_narrators)
 			list_of_sanads.append(document.text.strip())
 			hadith = hadith_element.text
