@@ -47,7 +47,7 @@ if len(sys.argv) > 3:
 	print(my_dict['سليم'])
 output_name = input_file_name
 #output_name = file_path[file_path.find('/')+1:].strip('.txt')
-graph = nx.Graph()
+graph = nx.DiGraph()
 
 
 
