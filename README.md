@@ -34,8 +34,10 @@ generates inputs the 30 first lines of suleym.txt file from the outputs director
 the table and graph png files in the output directory with appropriate file names
 
 Next Steps:
-1. make the edges directed
-2.check the below links
+1. Make the edges directed (plot_graph.py)
+2. Change bold edges to two separate edges (plot_graph.py)
+3. Add the narration nouns as a label for the edge
+4.check the below links
 Al-Ahadeeth: A Visualization Tool of the Hadiths’ Chain of Narrators
 https://link.springer.com/chapter/10.1007/978-3-031-61953-3_1
 
