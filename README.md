@@ -53,7 +53,7 @@ reading backlog:
 stats.meta.stackexchange.com/questions/2010/markdown-link-not-being-rendered-as-a-hyperlink
 
 
-references
+References
 Extraction and Visualization of the Chain of Narrators from Hadiths using ***Named Entity Recognition*** and Classification
 https://www.dline.info/jcl/fulltext/v5n1/2.pdf
 
